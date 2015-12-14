@@ -6,10 +6,9 @@
             <section>
                 <h2>About Stremler Gravel</h2>
                         {% for post in site.posts %}
-   {% if post.title = "portfolio" %}
-      <h3> {% post.title %} </h3>
-      blablabla
-   {% endif %}
-{% endfor %}
+		    <li>
+		      {{ post.title }}{{ post.content }}
+		    </li>
+		  {% endfor %}
             </section>
         </div>
