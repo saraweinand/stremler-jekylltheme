@@ -6,9 +6,10 @@
             <section>
                 <h2>About Stremler Gravel</h2>
                         {% for post in site.posts %}
-		    <li>
-		      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-		    </li>
-		  {% endfor %}
+   {% if post.title = "portfolio" %}
+      <h3> {% post.title %} </h3>
+      blablabla
+   {% endif %}
+{% endfor %}
             </section>
         </div>
