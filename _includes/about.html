@@ -6,8 +6,9 @@
             <section>
                 <h2>About Stremler Gravel</h2>
                         {% for post in site.posts %}
-
-		{{ include_relative _posts/2000-01-01-hero.md }}
-			{% endfor %}
+		    <li>
+		      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		    </li>
+		  {% endfor %}
             </section>
         </div>
