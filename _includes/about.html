@@ -5,10 +5,12 @@
             </section>
             <section>
                 <h2>About Stremler Gravel</h2>
-                        {% for post in site.posts %}
-		    <li>
-		      {{ post.content }}
-		    </li>
+		  
+		  
+		  {% for post in site.posts %}
+   			{% if post.title = "portfolio" %}
+      			    <li>{{ post.content }}</li>
+   			{% endif %}
 		  {% endfor %}
             </section>
         </div>
