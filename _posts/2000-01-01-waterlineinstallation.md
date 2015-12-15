@@ -5,7 +5,7 @@ categories:
 published: true
 ---
 
-![WATERLINE.jpg]({{site.baseurl}}/_posts/WATERLINE.jpg)
+![resident.jpg]({{site.baseurl}}/_posts/resident.jpg)
 
 ###Waterline Installation
 
