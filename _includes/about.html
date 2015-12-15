@@ -7,10 +7,8 @@
                 <h2>About Stremler Gravel</h2>
 		  
 		  
-		  {% for post in site.posts %}
-   			
-      			    {{ post.content }}
-   		
-		  {% endfor %}
+		  {% for post in site.categories.about %}
+    			{{ post.content }}
+		{% endfor %}
             </section>
         </div>
