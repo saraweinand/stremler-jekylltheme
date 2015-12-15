@@ -6,18 +6,21 @@
             </div>
             <section>
                 <img src="img/resident.jpg" alt="">
-                <h3>Site Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quia dolores cumque animi nihil, amet provident. Tempore aut modi perspiciatis officia, porro corporis, cum odio eius iste. Aliquam, minus repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, nostrum, ratione!</p>
+                {% for post in site.categories.waterline %}
+    			{{ post.content }}
+		{% endfor %}
             </section>
             <section>
                 <img src="img/sitedev.jpg" alt="">
-                <h3>Road Construction</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus neque commodi corrupti porro incidunt sapiente omnis provident eos. Accusantium temporibus voluptatum obcaecati perspiciatis.</p>
+                {% for post in site.categories.sitedev %}
+    			{{ post.content }}
+		{% endfor %}
             </section>
             <section>
                 <img src="img/roadconstruction.jpg" alt="">
-                <h3>Waterline Installation</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus neque commodi corrupti porro incidunt sapiente omnis provident eos. Accusantium temporibus voluptatum obcaecati perspiciatis doloremque eligendi quod, ullam maxime similique inventore.</p>
+                {% for post in site.categories.road %}
+    			{{ post.content }}
+		{% endfor %}
             </section>
 
         </div>
