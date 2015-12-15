@@ -3,9 +3,9 @@ title: Waterline
 categories: 
   - waterline
 published: true
+image: /img/resident.jpg
 ---
 
-![resident.jpg]({{site.baseurl}}/_posts/resident.jpg)
 
 ###Waterline Installation
 
