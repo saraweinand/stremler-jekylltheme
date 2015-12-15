@@ -6,6 +6,7 @@
             </div>
             <section>
             	<img src="img/resident.jpg" alt="">
+            	{% if page.image.feature %}<img src="{{ site.url }}/img/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></p>{% endif %}{% endif %}
                 {% for post in site.categories.waterline %}
     			{{ post.content }}
 		{% endfor %}
