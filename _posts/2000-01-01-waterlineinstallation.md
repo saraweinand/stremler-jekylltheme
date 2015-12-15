@@ -3,7 +3,8 @@ title: Waterline
 categories: 
   - waterline
 published: true
-img: gravel-1.jpg
+image:
+  feature: gravel-1.jpg
 ---
 
 ###Waterline Installation
