@@ -8,9 +8,7 @@ image:
 ---
 
 
-{% highlight html %}
 	<img src="/img/gravel-1.jpg" alt="image">
-{% endhighlight %}
 
 ###Waterline Installation
 
