@@ -1,6 +1,8 @@
 ---
-title :  Road Construction
+layout: default
+img: roadconstruction.jpg
 categories : [road]
+title :  Road Construction
 ---
 
 ###Road Construction
