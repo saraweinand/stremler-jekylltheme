@@ -1,14 +1,10 @@
 ---
-title: Waterline
+layout: default
+img: resident.jpg
 categories: 
   - waterline
-published: true
-image: 
-  feature: "gravel-1.jpg"
+title: Waterline Installation
 ---
-
-
-<img src="/img/gravel-1.jpg" alt="image">
 
 ###Waterline Installation
 
