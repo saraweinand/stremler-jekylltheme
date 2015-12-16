@@ -8,7 +8,7 @@ image:
 ---
 
 
-	<img src="/img/gravel-1.jpg" alt="image">
+<img src="/img/gravel-1.jpg" alt="image">
 
 ###Waterline Installation
 
