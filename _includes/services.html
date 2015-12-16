@@ -7,7 +7,6 @@
             <section>
             	
                 {% for post in site.categories.waterline %}
-                {{ post.title }}
                  	<img src="img/{{ post.img }}" alt="">
     			{{ post.content }}
 		{% endfor %}
@@ -15,12 +14,14 @@
             <section>
                 <img src="img/sitedev.jpg" alt="">
                 {% for post in site.categories.sitedev %}
+                	<img src="img/{{ post.img }}" alt="">
     			{{ post.content }}
 		{% endfor %}
             </section>
             <section>
                 <img src="img/roadconstruction.jpg" alt="">
                 {% for post in site.categories.road %}
+                	<img src="img/{{ post.img }}" alt="">
     			{{ post.content }}
 		{% endfor %}
             </section>
