@@ -8,7 +8,7 @@ image:
 ---
 
 
-{% asset_path gravel-1.jpg %}
+![gravel]({{ site.url }}/img/gravel-1.jpg)
 
 ###Waterline Installation
 
