@@ -8,7 +8,9 @@ image:
 ---
 
 
-![gravel]({{ site.url }}/img/gravel-1.jpg)
+{% highlight html %}
+	<img src="/img/gravel-1.jpg" alt="image">
+{% endhighlight %}
 
 ###Waterline Installation
 
