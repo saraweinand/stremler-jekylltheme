@@ -6,12 +6,9 @@
                             <img src="img/contacticons-03.png" alt="">
                         </section>
                         <section>
-                            <h3>Location</h3>
-                            <h5>250 Bay Road<br>
-                                Lynden, WA 98264</h5>
-                            <h3>Hours</h3>
-                            <h5>Monday-Friday<br>
-                                7:00am-5:00pm</h5>
+                            {% for post in site.categories.location %}
+                            {{ post.content }}
+                            {% endfor %}
                         </section>
                 </div>
                 <div class="col ten-ninety">
@@ -19,10 +16,9 @@
                             <img src="img/contacticons-02.png" alt="">
                         </section>
                         <section>
-                            <h3>Office</h3>
-                            <h5>(360) 354-8585</h5>
-                            <h3>Fax</h3>
-                            <h5>(360) 354-8504</h5>
+                            {% for post in site.categories.phone %}
+                            {{ post.content }}
+                            {% endfor %}
                         </section>
                 </div>
                 <div class="col ten-ninety">
@@ -30,8 +26,9 @@
                             <img src="img/contacticons-01.png" alt="">
                         </section>
                         <section>
-                            <h5>duane@stremlergravel.net<br>
-                                lane@stremlergravel.net</h5>
+                           {% for post in site.categories.email %}
+                            {{ post.content }}
+                            {% endfor %}
                         </section>
                 </div>
                 </div>
