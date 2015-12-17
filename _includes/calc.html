@@ -1,10 +1,12 @@
 <div class="col fourty-sixty calculator" id="calculator">
+            {% for post in site.categories.calculator %}
             <section>
-                <img src="img/landingpage-4.jpg" alt="">
+                <img src="img/{{ post.img }}" alt="">
             </section>
+            
             <section>
                 <h2>Gravel Calculator</h2>
-                <h4>Our gravel coverage calculator will help you get an understanding of how much you will need to order. </h4>
+                {{ post.content }}
                 <h4 class="calcTitle">Area Size:</h4>
                 <form>
 
@@ -18,4 +20,5 @@
                 </form>
                 <h3 class="coverageh3">Estimated Tons Required: <div id="coverage"></div></h3>
             </section>
+            {% endfor %}
         </div>
