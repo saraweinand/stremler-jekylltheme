@@ -3,9 +3,13 @@
                 <h2>Stremler's Gravel Pit</h2>
             </div>
             <section class="gallery-rock a ">
-                <div class="image_container"><img src="img/gravel-1.jpg" alt=""><img src="img/gravel-1.1.jpg" alt="">
-                </div>
-                <h4 class="rocktitle">Washed Stone</h4>
+                 {% for post in site.categories.waterline %}
+                        <div class="image_container">
+                                    <img src="img/{{ post.img }}" alt="">
+                                    <img src="{{ post.content }}" alt="">
+                        </div>
+                        <h4 class="rocktitle">{{ post.title }}</h4>
+                {% endfor %}
             </section>
             <section class="gallery-rock a ">
                 <div class="image_container"><img src="img/gravel-1.jpg" alt=""><img src="img/gravel-1.1.jpg" alt="">
