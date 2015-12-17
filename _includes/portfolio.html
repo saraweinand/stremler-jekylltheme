@@ -2,23 +2,90 @@
             <div class="title">
                 <h2>Project Gallery</h2>
             </div>
+            
             <section class="gallery-rock">
-<div class="imagecontainer"><a class="cd-btn-1" href="#0"><img src="img/gravel-1.jpg" alt=""></a></div><h4>Project Title</h4>
-</section><section class="gallery-rock">
-<div class="imagecontainer"><a class="cd-btn-2" href="#0"><img src="img/gravel-1.jpg" alt=""></a></div><h4>Project Title</h4>
-</section><section class="gallery-rock">
-<div class="imagecontainer"><a class="cd-btn-3" href="#0"><img src="img/gravel-1.jpg" alt=""></a></div><h4>Project Title</h4>
-</section><section class="gallery-rock">
-<div class="imagecontainer"><a class="cd-btn-4" href="#0"><img src="img/gravel-1.jpg" alt=""></a></div><h4>Project Title</h4>
-</section><section class="gallery-rock">
-<div class="imagecontainer"><a class="cd-btn-5" href="#0"><img src="img/gravel-1.jpg" alt=""></a></div><h4>Project Title</h4>
-</section><section class="gallery-rock">
-<div class="imagecontainer"><a class="cd-btn-6" href="#0"><img src="img/gravel-1.jpg" alt=""></a></div><h4>Project Title</h4>
-</section><section class="gallery-rock">
-<div class="imagecontainer"><a class="cd-btn-7" href="#0"><img src="img/gravel-1.jpg" alt=""></a></div><h4>Project Title</h4>
-</section><section class="gallery-rock">
-<div class="imagecontainer"><a class="cd-btn-8" href="#0"><img src="img/gravel-1.jpg" alt=""></a></div><h4>Project Title</h4>
-</section>
+            {% for post in site.categories.project1 %}
+            <div class="imagecontainer">
+                 <a class="cd-btn-1" href="#0">
+                 <img src="img/{{ post.img[0] }}" alt=""></a>
+            </div>
+            <h4>{{ post.title }}</h4>
+            {% endfor %} 
+            </section>
+            
+            <section class="gallery-rock">
+            {% for post in site.categories.project2 %}
+            <div class="imagecontainer">
+                 <a class="cd-btn-2" href="#0">
+                 <img src="img/{{ post.img[0] }}" alt=""></a>
+            </div>
+            <h4>{{ post.title }}</h4>
+            {% endfor %}
+            </section>
+            
+            <section class="gallery-rock">
+            {% for post in site.categories.project3 %}
+            <div class="imagecontainer">
+                 <a class="cd-btn-3" href="#0">
+                 <img src="img/{{ post.img[0] }}" alt=""></a>
+            </div>
+            <h4>{{ post.title }}</h4>
+            {% endfor %}
+            </section>
+            
+            <section class="gallery-rock">
+            {% for post in site.categories.project4 %}
+            <div class="imagecontainer">
+                 <a class="cd-btn-4" href="#0">
+                 <img src="img/{{ post.img[0] }}" alt=""></a>
+            </div>
+            <h4>{{ post.title }}</h4>
+            {% endfor %}
+            </section>
+            
+            <section class="gallery-rock">
+            {% for post in site.categories.project5 %}
+            <div class="imagecontainer">
+                 <a class="cd-btn-5" href="#0">
+                 <img src="img/{{ post.img[0] }}" alt=""></a>
+            </div>
+            <h4>{{ post.title }}</h4>
+            {% endfor %}
+            </section>
+            
+            <section class="gallery-rock">
+            {% for post in site.categories.project6 %}
+            <div class="imagecontainer">
+                 <a class="cd-btn-6" href="#0">
+                 <img src="img/{{ post.img[0] }}" alt=""></a>
+            </div>
+            <h4>{{ post.title }}</h4>
+            {% endfor %}
+            </section>
+            
+            <section class="gallery-rock">
+            {% for post in site.categories.project7 %}
+            <div class="imagecontainer">
+                 <a class="cd-btn-7" href="#0">
+                 <img src="img/{{ post.img[0] }}" alt=""></a>
+            </div>
+            <h4>{{ post.title }}</h4>
+            {% endfor %}
+            </section>
+            
+            <section class="gallery-rock">
+            {% for post in site.categories.project8 %}
+            <div class="imagecontainer">
+                  <a class="cd-btn-8" href="#0">
+                  <img src="img/{{ post.img[0] }}" alt=""></a>
+            </div>
+            <h4>{{ post.title }}</h4>
+            {% endfor %}
+            </section>
+
+
+
+
 
 <!--slide content-->
 <div class="cd-panel-1 from-right"><header class="cd-panel-header">
