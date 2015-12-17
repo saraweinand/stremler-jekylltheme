@@ -1,9 +1,9 @@
 <!-- Landing page -->
 <div class="framework_container">
-	
+{% for post in site.categories.landing %}
     <div class="col one">
         <section>
-            <img src="img/landingpage-1.png" id="video-background">
+            <img src="img/{{ post.img }}" id="video-background">
         </section>  
         <section class="landing">
             <nav class="desktop" id="menu">
@@ -29,10 +29,9 @@
   <div><a href="#contact">Contact</a></div>
 </div>
 
-            <h1>WE PROVIDE QUALITY PRODUCTS & SERVICE FOR A REASONABLE PRICE</h1>
-            <h6>since 1984</h6>
+            {{ post.content }}
             <button><a href="#projects">View our Work</a></button><button><a href="#projects">Request a Quote</a></button>
 
         </section> 
-
+	{% endfor %}
     </div>
