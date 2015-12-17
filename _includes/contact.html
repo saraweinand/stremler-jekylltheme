@@ -50,15 +50,23 @@
                 <h2>What our customers say</h2>
             </div>
             <section>
-                <img src="img/user-placeholder.png" alt=""> <h4>"They are timely, friendly, communicate clearly about orders and are all-around a great bunch of people to work with."</h4>
+                {% for post in site.categories.testimonial1 %}
+                <img src="img/{{ post.img }}" alt=""> {{ post.content }}
+                {% endfor %}
             </section>
             <section>
-                <img src="img/user-placeholder.png" alt=""> <h4>"They were on-time, on-budget, professional, and friendly. Their equipment was well-maintained and their operators well-trained. Highly recommended."</h4>
+                {% for post in site.categories.testimonial2 %}
+                <img src="img/{{ post.img }}" alt=""> {{ post.content }}
+                {% endfor %}
             </section>
             <section>
-                <img src="img/user-placeholder.png" alt=""> <h4>"They are generous and support their community by supporting our non-profit endeavors to help kids"</h4>
+                {% for post in site.categories.testimonial3 %}
+                <img src="img/{{ post.img }}" alt=""> {{ post.content }}
+                {% endfor %}
             </section>
             <section>
-                <img src="img/user-placeholder.png" alt=""> <h4>"Stremler Gravel is fantastic, they are professional, timely, and friendly! I recommend them to everybody!"</h4>
+                {% for post in site.categories.testimonial4 %}
+                <img src="img/{{ post.img }}" alt=""> {{ post.content }}
+                {% endfor %}
             </section>
         </div>
