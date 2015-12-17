@@ -1,14 +1,12 @@
 <!-- About Me -->
 <div class="col fourty-sixty about" id="about">
+	{% for post in site.categories.about %}
             <section>
-                <img src="img/landingpage-2.jpg" alt="">
+                <img src="img/{{ post.img }}" alt="">
             </section>
             <section>
                 <h2>About Stremler Gravel</h2>
-		  
-		  
-		  {% for post in site.categories.about %}
-    			{{ post.content }}
-		{% endfor %}
+		{{ post.content }}
             </section>
+        {% endfor %}
         </div>
