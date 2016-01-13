@@ -623,12 +623,14 @@ h3 {
 	margin-top: 2%;
 }
 
-.gallery-rock img:hover {
+
+/*commented out until we can find "after" images for the gravel types.*/
+/*.gallery-rock img:hover {
   opacity: 0;
   transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
-}
+} */ 
 
 #projects .gallery-rock img:hover {
   opacity: .8;
