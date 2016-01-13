@@ -1,6 +1,6 @@
 ---
 layout: default
-img: user-placeholder.png
+img: speechbubble.png
 categories : [testimonial3]
 title :  Testimonial 3
 ---
