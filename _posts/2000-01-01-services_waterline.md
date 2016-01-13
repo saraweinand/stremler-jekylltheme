@@ -1,9 +1,9 @@
 ---
 layout: default
-img: waterline.jpg
 categories: 
   - waterline
 title: Waterline Installation
+img: WATERLINE.jpg
 ---
 
 ###Waterline Installation
