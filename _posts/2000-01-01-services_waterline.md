@@ -1,6 +1,6 @@
 ---
 layout: default
-img: resident.jpg
+img: waterline.jpg
 categories: 
   - waterline
 title: Waterline Installation
