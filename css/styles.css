@@ -2,7 +2,24 @@
 	light grey: #ddd;
 	dark grey: grey;
 */
+.topbanner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+}
 
+.topbanner h5 {
+    display: inline-block;
+    text-align: center;
+    font-size: .7em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    margin: .75% 0 .75% 0;
+    width: 100%;
+}
 
 .image_container {
     position: relative;
