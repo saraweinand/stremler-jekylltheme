@@ -36,11 +36,12 @@
             <section>
                 <h2>Get In Touch</h2>
                 <h4>If you'd like a quote for a project or learn more about what we do, please feel free to contact us.</h4>
-                <form name="contactform" method="post" action="send_form_email.php">
-                    <input type="text" placeholder="name" name="first_name"><input type="text" placeholder="phone" name="telephone">
+                <form name="contact_form" method="post" action="form_process.php">
+                    <input type="text" placeholder="name" name="name"><input type="text" placeholder="phone" name="phone">
                     <input type="text" placeholder="email" name="email">
-                    <textarea id="message" class="input" name="comments" rows="7" cols="30" placeholder="message"></textarea>
-                    <button class="send" type="submit" value="Submit">Send</button>
+                    <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="message"></textarea>
+                    <input type="submit" name="submit" id="submit" value="Send">
+                    <!--<button class="send" type="submit" value="Submit">Send</button>-->
                 </form>
             </section>
         </div>
