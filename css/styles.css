@@ -692,7 +692,7 @@ h3 {
 	
 }
 
-.contact input #submit {
+.contact input#submit {
 	background: #d42027;
 }
 .contact section:nth-child(1) div:nth-child(1) {
