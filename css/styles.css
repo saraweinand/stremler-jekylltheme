@@ -698,6 +698,12 @@ h3 {
 
 .contact input#submit {
 	background: #d42027;
+	color: #fff;
+}
+
+.contact input#submit:hover {
+	background: #ddd;
+	color: #000;
 }
 .contact section:nth-child(1) div:nth-child(1) {
 	padding-left: 0;
