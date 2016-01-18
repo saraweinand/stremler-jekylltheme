@@ -702,8 +702,8 @@ h3 {
 }
 
 .contact input#submit:hover {
-	background: #ddd;
-	color: #000;
+	background: #fff;
+	color: #d42027;
 }
 .contact section:nth-child(1) div:nth-child(1) {
 	padding-left: 0;
