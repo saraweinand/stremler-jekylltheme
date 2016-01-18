@@ -530,9 +530,10 @@ section img {
 }
 
 .graveldelivery {
-	width: 80%;
-	display: block;
-	margin: 0 auto;
+    width: 70%;
+    display: block;
+    margin: 5% 15% 0 15%;
+    font-size: .75em;
 }
 
 .calculator section:nth-child(1) img{
