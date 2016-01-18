@@ -542,7 +542,7 @@ section img {
 	padding-bottom: 0;
 }
 
-.graveldelivery em {
+.graveldelivery span {
 	color: #d42027;
 	font-size: .8em;
 	text-decoration: none;
