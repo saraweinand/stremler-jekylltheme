@@ -542,6 +542,12 @@ section img {
 	padding-bottom: 0;
 }
 
+.graveldelivery em {
+	color: #d42027;
+	font-size: .8em;
+	text-decoration: none;
+}
+
 .calculator section:nth-child(1) img{
 	width: 60%;
 	float: right;
