@@ -26,9 +26,11 @@ var cubicYards = lengthYards * widthYards * depthYards;
 // 4: output cubic yards
 var requiredTons = cubicYards * 2;
 
+var result=Math.round(cubicYards*1000)/1000
+
 // Create a variable called el to hold the element whose id attribute has a value of footer
 var el = document.getElementById('coverage');
 // Write the sting of variables
-el.innerHTML = '<h3>' + cubicYards + '</h3>';
+el.innerHTML = '<h3>' + result + '</h3>';
   
 };
