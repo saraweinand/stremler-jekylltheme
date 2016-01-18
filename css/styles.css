@@ -529,6 +529,12 @@ section img {
 	padding-left: 2%;
 }
 
+.graveldelivery {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
 .calculator section:nth-child(1) img{
 	width: 60%;
 	float: right;
