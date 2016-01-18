@@ -4,5 +4,5 @@ categories : [email]
 title :  Email Address
 ---
 duane@stremlergravel.net
-lane@stremlergravel.ne
+lane@stremlergravel.net
 
