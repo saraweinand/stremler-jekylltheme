@@ -24,7 +24,7 @@ var cubicYards = lengthYards * widthYards * depthYards;
 
   
 // 4: output cubic yards
-var requiredTons = cubicYards * 1.87;
+var requiredTons = cubicYards * 1.88;
 
 var result=Math.round(requiredTons*1000)/1000
 
